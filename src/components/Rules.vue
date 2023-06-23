@@ -19,6 +19,7 @@
 <style scoped>
 #rules {
      width: 100%;
+     height: 70vh;
      display: flex;
      margin-top: 100px;
 }
@@ -32,7 +33,7 @@
 
 #rules .rules--content {
      width: 100%;
-     height: 50vh;
+     height: 50%;
      position: absolute;
      display: flex;
      align-items: center;
@@ -60,6 +61,10 @@
 /* breakpoints */
 
 @media only screen and (max-width: 820px) {
+
+     #rules {
+          height: 120vh;
+     }
      #rules .rules--content {
           flex-wrap: wrap;
           max-width: 100%;

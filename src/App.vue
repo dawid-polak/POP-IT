@@ -12,12 +12,14 @@
           </div>
      </section>
      <Rules />
+     <Footer />
 </template>
 <script setup>
 import Navbar from "./components/Navbar.vue";
 import Welcome from "./components/Welcome.vue";
 import ChooseItem from "./components/ChooseItem.vue";
 import Rules from "./components/Rules.vue";
+import Footer from "./components/Footer.vue"
 
 const choose_items = [
      {

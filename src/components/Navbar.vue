@@ -52,6 +52,7 @@ if (window.innerWidth > 720) {
      display: flex;
      align-items: center;
      font-size: 18px;
+     z-index: 500;
 }
 
 .navbar--logo {
@@ -101,8 +102,12 @@ if (window.innerWidth > 720) {
 
 /* breakpoints */
 @media only screen and (max-width: 720px) {
+     .navbar--logo {
+          margin-left: 30px;
+     }
      .navbar--humburger {
           display: block;
+          margin-right: 30px;
      }
 
      .navbar--menu {
