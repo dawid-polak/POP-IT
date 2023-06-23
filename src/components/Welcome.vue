@@ -56,6 +56,7 @@
      font-weight: 600;
      margin-top: 80px;
      color: #000;
+     cursor: pointer;
 }
 
 
