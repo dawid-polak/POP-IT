@@ -25,19 +25,19 @@ const choose_items = [
      {
           id: 0,
           description: "Multicolored square",
-          img_src: "/src/assets/img/square.png",
+          img_src: "../assets/square.png",
           img_name: "square",
      },
      {
           id: 1,
           description: "Amoung Us, marbled",
-          img_src: "/src/assets/img/amongus.png",
+          img_src: "../assets/img/amongus.png",
           img_name: "amongus",
      },
      {
           id: 2,
           description: "Multicolored round",
-          img_src: "/src/assets/img/round.png",
+          img_src: "../assets/img/round.png",
           img_name: "round",
      },
 ];
