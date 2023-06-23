@@ -25,19 +25,19 @@ const choose_items = [
      {
           id: 0,
           description: "Multicolored square",
-          img_src: "../assets/square.png",
+          img_src: "https://res.cloudinary.com/djlmfaafc/image/upload/v1687509114/square_reemt6.png",
           img_name: "square",
      },
      {
           id: 1,
           description: "Amoung Us, marbled",
-          img_src: "../assets/img/amongus.png",
+          img_src: "https://res.cloudinary.com/djlmfaafc/image/upload/v1687509106/amongus_xxafry.png",
           img_name: "amongus",
      },
      {
           id: 2,
           description: "Multicolored round",
-          img_src: "../assets/img/round.png",
+          img_src: "https://res.cloudinary.com/djlmfaafc/image/upload/v1687509119/round_q7vhh9.png",
           img_name: "round",
      },
 ];
