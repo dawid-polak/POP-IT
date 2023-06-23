@@ -8,36 +8,37 @@
      <section id="choose">
           <h1>Choose your Pop-It!</h1>
           <div class="choose--items">
-               <ChooseItem v-for="item in choose_items" :key="item.id" :data="item"/>
+               <ChooseItem v-for="item in choose_items" :key="item.id" :data="item" />
           </div>
      </section>
+     <Rules />
 </template>
 <script setup>
 import Navbar from "./components/Navbar.vue";
 import Welcome from "./components/Welcome.vue";
 import ChooseItem from "./components/ChooseItem.vue";
-
+import Rules from "./components/Rules.vue";
 
 const choose_items = [
-  {
-    id: 0,
-    description: "Multicolored square",
-    img_src: "/src/assets/img/square.png",
-    img_name: "square"
-  },
-  {
-    id: 1,
-    description: "Amoung Us, marbled",
-    img_src: "/src/assets/img/amongus.png",
-    img_name: "amongus"
-  },
-  {
-    id: 2,
-    description: "Multicolored round",
-    img_src: "/src/assets/img/round.png",
-    img_name: "round"
-  }
-]
+     {
+          id: 0,
+          description: "Multicolored square",
+          img_src: "/src/assets/img/square.png",
+          img_name: "square",
+     },
+     {
+          id: 1,
+          description: "Amoung Us, marbled",
+          img_src: "/src/assets/img/amongus.png",
+          img_name: "amongus",
+     },
+     {
+          id: 2,
+          description: "Multicolored round",
+          img_src: "/src/assets/img/round.png",
+          img_name: "round",
+     },
+];
 </script>
 
 <style scoped>
