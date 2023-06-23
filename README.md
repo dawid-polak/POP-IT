@@ -2,7 +2,7 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-# Link to project
+## Link to project
 
 https://pop-it-dawid-polak.netlify.app/
 
