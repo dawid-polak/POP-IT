@@ -35,7 +35,7 @@ const handleActiveMenu = () => {
      }
 };
 
-//reload size when window width under 720px
+//reload page when window width under 720px
 if (window.innerWidth > 720) {
      activeMenu.value = true;
 } else {
